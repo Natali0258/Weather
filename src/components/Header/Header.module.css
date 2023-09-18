@@ -1,0 +1,35 @@
+.header{
+   padding: 20px 0 30px;
+}
+.wrapper{
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.logo, .selectCity{
+display: flex;
+justify-content: center;
+align-items: center;
+column-gap: 25px;
+}
+.circle{
+   width: 60px;
+   height: 60px;
+   border-radius: 50%;
+   background:var(--blue);
+   background: #4793FF;
+   border: 2px solid #4793FF;
+   background-image: url('../../assets/icons/logo1.png');
+   background-size: cover;
+}
+.title{
+   color:var(--blue);
+   text-transform: uppercase;
+   font-weight: 700;
+   font-size: 25px;
+   line-height: 30px;
+}
+.drop{
+   height: 30px;
+}

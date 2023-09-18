@@ -1,0 +1,23 @@
+.form{
+   display: flex;
+   column-gap:10px;
+}
+.input{
+   width: 194px;
+   height: 37px;
+   border-radius: 10px;
+   background: var(--gray-block);
+   border:none;
+   outline: none;
+   padding-left: 10px;
+   font-weight: 500;
+}
+.button{
+   height: 37px;
+   padding: 0 20px;
+   background: var(--gray-block);
+   cursor: pointer;
+   font-weight: 500;
+   border-radius: 10px;
+   border: none;
+}
