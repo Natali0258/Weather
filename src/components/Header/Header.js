@@ -1,8 +1,7 @@
-import drop from '../../assets/icons/drop.png';
 import css from './Header.module.css';
 import Form from '../Form/Form';
 
-const Header = ({ setCurrent }) => {
+const Header = ({ setCurrent, isLight, setIsLight, setFiveDays, setDate }) => {
 
    return (
       <header className={css.header}>
@@ -13,8 +12,9 @@ const Header = ({ setCurrent }) => {
                   <h1 className={css.title}>react weather</h1>
                </div>
                <div className={css.selectCity}>
-                  <img src={drop} alt="drop" className={css.drop} />
-                  <Form />
+                  <div className={`${css.drop} ${isLight ? css.light : ''}`} onClick={() => setIsLight(!isLight)}></div>
+                  <Form setCurrent={setCurrent} isLight={isLight} setIsLight={setIsLight}
+                     setFiveDays={setFiveDays} setDate={setDate} />
                </div>
             </nav>
          </div>

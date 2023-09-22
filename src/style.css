@@ -6,10 +6,16 @@
    list-style-type: none;
    font-family: 'Montserrat', sans-serif;
    font-style: normal;
+}
+.app{
+   background: #0D1117;
+   min-height: 100vh;
    color: white;
 }
-#root{
-   background: #0D1117;
+.app.light{
+   background: white;
+   min-height: 100vh;
+   color:black;
 }
 .container{
    width: 100%;
@@ -18,11 +24,22 @@
    margin: 0 auto;
 }
 
-:root{
+.block-form{
+   position: fixed;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   padding: 20px 30px;
+   background: white;
+   border-radius: 20px;
+}
+
+.app{
    --blue: rgb(127, 184, 236);
    --gray-block: #4F4F4F;
    --gray-text: #939CB0;
    --shadow: 2px 5px 25px -3px rgba(180, 180, 180, 0.25);
+   --blue-block: rgba(71,147,255,0.2)
 }
 
 @font-face {

@@ -19,7 +19,7 @@ column-gap: 25px;
    border-radius: 50%;
    background:var(--blue);
    background: #4793FF;
-   border: 2px solid #4793FF;
+   border: 8px solid #4793FF;
    background-image: url('../../assets/icons/logo1.png');
    background-size: cover;
 }
@@ -31,5 +31,18 @@ column-gap: 25px;
    line-height: 30px;
 }
 .drop{
-   height: 30px;
+   width: 35px;
+   height: 35px;
+   border-radius: 50%;
+   border: 4px solid white;
+   background: white;
+   background-image: url('../../assets/icons/drop.png');
+   background-size: cover;
+   cursor: pointer;
+}
+.drop.light{
+   border: 4px solid black;
+   background: black;
+   background-image: url('../../assets/icons/drop.png');
+   background-size: cover;
 }

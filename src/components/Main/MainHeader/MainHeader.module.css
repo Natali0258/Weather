@@ -13,6 +13,9 @@
    display: flex;
    flex-direction: column;
 }
+.left.light{
+   background: white;
+}
 .leftTop{
    display: flex;
    justify-content: space-between;
@@ -52,6 +55,9 @@
    row-gap: 30px;
    position: relative;
 }
+.right.light{
+   background: white;
+}
 .elem{
    display:flex;
    align-items: center;
@@ -70,11 +76,16 @@
    border-radius: 20px;
    opacity: 0.68;
 }
+.imageCloud.light{
+   background-image: url('../../../assets/icons/clouds-light.png');
+   background-size: cover;
+}
 .imageTemp{
    width: 50px;
    height: 50px;
    border-radius: 50%;
-   border: none;
+   border: 4px solid white;
+   box-shadow: var(--shadow);
    background: white;
    background-image: url('../../../assets/icons/temperature.png');
    background-size: cover;
@@ -84,7 +95,8 @@
    width: 50px;
    height: 50px;
    border-radius: 50%;
-   border: none;
+   border: 4px solid white;
+   box-shadow: var(--shadow);
    background: white;
    background-image: url('../../../assets/icons/pressure.png');
    background-size: cover;
@@ -93,7 +105,8 @@
    width: 50px;
    height: 50px;
    border-radius: 50%;
-   border: none;
+   border: 4px solid white;
+   box-shadow: var(--shadow);
    background: white;
    background-image: url('../../../assets/icons/precipitation.png');
    background-size: cover;
@@ -102,7 +115,8 @@
    width: 50px;
    height: 50px;
    border-radius: 50%;
-   border: none;
+   border: 4px solid white;
+   box-shadow: var(--shadow);
    background: white;
    background-image: url('../../../assets/icons/wind.png');
    background-size: cover;

@@ -11,6 +11,11 @@
    outline: none;
    padding-left: 10px;
    font-weight: 500;
+   color: white;
+}
+.input.light{
+   background: var(--blue-block);
+   color: black;
 }
 .button{
    height: 37px;
@@ -18,6 +23,11 @@
    background: var(--gray-block);
    cursor: pointer;
    font-weight: 500;
+   color: white;
    border-radius: 10px;
    border: none;
+}
+.button.light{
+   background: var(--blue-block);
+   color: black;
 }
