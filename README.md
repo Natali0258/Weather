@@ -1,5 +1,8 @@
 # Getting Started with Create React App
+<div>
 ![scrinshot](https://github.com/Natali0258/Weather/blob/master/src/assets/icons/sun.png)
+![scrinshot](https://github.com/Natali0258/Weather/blob/master/src/assets/icons/sun.png)
+</div>
 
 Проект Weather - показывает текущую погоду и прогноз погоды на 5 дней в месте нахождения пользователя или в любой точке земного шара с помощью API OpenWeatherMap.  
 Если пользователь дал разрешение приложению получать геоданные устройства, то при запуске приложения на экран выводятся текущие данные о температуре, атмосферном давлении, скорости ветра и осаткох в текущей геолокации. Также пользователь получает прогноз  температуры и осадков на ближайшие 5 дней.  
